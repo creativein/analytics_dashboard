@@ -1,0 +1,61 @@
+<div class="wrapper">
+  <!-- Sidebar  -->
+  <nav id="sidebar" #sidebar>
+    <div class="sidebar-header">
+      <span class="text-menu">
+        Dashboard Menu
+      </span>
+      <button type="button" class="btn pull-right menu-button" aria-label="Dashboard Menu" (click)="toggleSidebar()">
+        <span class="fa fa-columns fa-lg" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <ul class="list-unstyled">
+      <li class="active">
+        <button type="button" class="btn pull-right menu-button" aria-label="Dashboard" (click)="toggleSidebar()">
+          <span class="fa fa-home fa-lg" aria-hidden="true"></span>
+        </button>
+        <a href="#dashboard-menu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+          <i class="fa fa-home"></i>
+          DASHBOARD
+        </a>
+        <ul class="collapse list-unstyled" id="dashboard-menu">
+          <li>
+            <a href="#">Sub Reporting Timelines</a>
+          </li>
+          <li>
+            <a href="#">Anayltics Monitoring</a>
+          </li>
+          <li>
+            <a href="#">Time Phase Graphs</a>
+          </li>
+          <li>
+            <a href="#">Untitled Report</a>
+          </li>
+          <li>
+            <a href="#">Reporting Datatable</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+          <i class="fa fa-chart-bar"></i>
+          ANAYLTICS
+        </a>
+      </li>
+      <li>
+        <a href="#" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+          <i class="fa fa-flag"></i>
+          REPORTS
+        </a>
+      </li>
+      <li>
+        <a href="#" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+          <i class="fa fa-clock"></i>
+          TIMELINES
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+</div>

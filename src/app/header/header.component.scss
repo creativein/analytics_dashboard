@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  height: 50px;
+  padding: .5rem 1rem;
+  background-color: #f8f9fa !important;
+  .logo {
+    height: 15px;
+    width: 120px;
+  }
+  .company-name {
+    text-align: center;
+  }
+  .profile-section {
+    text-align: right;
+  }
+}
