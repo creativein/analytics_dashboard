@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #000000;
+}
+
+.nav-item {
+  :hover {
+    background: #f9d416;
+    color: #000000;
+  }
+  &.active {
+    background: #f9d416;
+    a {
+      color: #000000;
+    }
+  }
+  a {
+    color: #fff;
+  }
+}
